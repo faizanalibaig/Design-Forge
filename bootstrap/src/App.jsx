@@ -1,12 +1,12 @@
 import React from "react";
+import Main from "./components/main/Main.jsx"
+import EggSection from './components/Egg/EggSection.jsx';
 
 function App() {
     return (
-        <div className="bg-primary">
-            <h1 className="text-primary">Hello, Bootstrap!</h1>
-            <p className="text-danger fw-bold">
-                This is a bold, red paragraph using Bootstrap classes.
-            </p>
+        <div className="bg-primary d-flex flex-column">
+            <Main />
+            <EggSection />
         </div>
     );
 }
